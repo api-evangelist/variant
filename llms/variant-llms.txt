@@ -1,0 +1,17 @@
+# Variant
+
+> Variant (variant.com, formerly variant.ai) is an AI-powered design tool: enter an idea for an app or site and see endless design options just by scrolling. The company is a portfolio company of Kindred Ventures.
+
+Variant does not currently publish a public developer program. The product and all
+site pages (terms, privacy, pricing, blog) sit behind authentication at
+https://variant.com/authentication, and no public API, documentation, OpenAPI
+specification, or llms.txt was found as of 2026-07-21.
+
+## Product
+
+- [Variant](https://variant.com/): Endless designs for your ideas, just scroll. Enter an idea for an app or site and see endless design options just by scrolling.
+- [Sign in or sign up](https://variant.com/authentication): Account entry point for the product.
+
+## Optional
+
+- [API Evangelist profile source](https://raw.githubusercontent.com/api-evangelist/variant/refs/heads/main/apis.yml): APIs.json profile for Variant maintained by the API Evangelist network.

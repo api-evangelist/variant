@@ -1,0 +1,37 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of https://variant.com (variant.ai 301s to variant.com)
+note: variant.com auth-gates its entire surface; every well-known path 307-redirects
+  to /authentication rather than serving a document. No well-known artifacts are
+  published. Statuses recorded for re-run comparison.
+host: https://variant.com
+probed:
+- path: /.well-known/security.txt
+  status: 307
+  redirect: https://variant.com/authentication?next=%2F.well-known%2Fsecurity.txt
+  file: null
+- path: /.well-known/openid-configuration
+  status: 307
+  redirect: https://variant.com/authentication?next=%2F.well-known%2Fopenid-configuration
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 307
+  redirect: https://variant.com/authentication?next=%2F.well-known%2Foauth-authorization-server
+  file: null
+- path: /.well-known/api-catalog
+  status: 307
+  redirect: https://variant.com/authentication?next=%2F.well-known%2Fapi-catalog
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 307
+  redirect: https://variant.com/authentication?next=%2F.well-known%2Fai-plugin.json
+  file: null
+- path: /llms.txt
+  status: 307
+  redirect: https://variant.com/authentication?next=%2Fllms.txt
+  file: null
+- path: /robots.txt
+  status: 200
+  file: null
+  note: robots.txt is the only public path; disallows /design/, /images/, /profile/,
+    /collections/, /assets/, /shared/
