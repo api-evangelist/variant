@@ -5,6 +5,17 @@ description: Variant is an AI-powered design tool at variant.com (formerly varia
   design options just by scrolling. A Kindred Ventures portfolio company, Variant currently keeps its
   product and site pages behind authentication and publishes no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/variant/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
